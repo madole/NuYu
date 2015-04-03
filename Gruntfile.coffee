@@ -82,7 +82,7 @@ module.exports = (grunt) ->
         files: "#{TEMPLATES_PATH}/**/*.jade"
         tasks: 'clientTemplates'
       sass:
-        files: ["#{APP_PATH}/scss/**/*.scss"]
+        files: ["#{APP_PATH}/scss/**/**/*.scss"]
         tasks: 'sass:development' 
 
   grunt.registerTask 'clientTemplates', 'Compile and concatenate Jade templates for client.', ->

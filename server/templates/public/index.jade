@@ -1,26 +1,4 @@
 extends layout
 
 block content
-  #carousel-generic.carousel.slide(data-ride="carousel")
-    ol.carousel-indicators
-      li.active(data-target="#carousel-generic", data-slide-to="0")
-      li(data-target="#carousel-generic", data-slide-to="1")
-      li(data-target="#carousel-generic", data-slide-to="2")
-
-    .carousel-inner(role="listbox")
-      .item.active
-        img(src="http://www.healthcareworkersalary.com/wp-content/uploads/2014/02/nurse_pic.jpg")
-        .carousel-caption Nurse 1
-      .item
-        img(src="http://dakotatravelnurse.com/wp-content/uploads/nurse-1.jpg")
-        .carousel-caption Doctor
-      .item
-        img(src="http://www.curlaser.com/wp-content/uploads/2013/11/Botox.jpg")
-        .carousel-caption Botox
-
-    a.left.carousel-control(href="#carousel-generic", role="button", data-slide="prev")
-      span.nav-chevrons__left
-      span.sr-only Previous
-    a.right.carousel-control(href="#carousel-generic", role="button", data-slide="next")
-      span.nav-chevrons__right
-      span.sr-only Next
+ include partials/carousel

@@ -1,0 +1,26 @@
+//Carousel
+
+#carousel-generic{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-chevrons {
+  @extend .fa;
+  @extend .fa-4x;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+.nav-chevrons__left {
+  @extend .nav-chevrons;
+  @extend .fa-chevron-left;
+  left: 25%;
+}
+.nav-chevrons__right {
+  @extend .nav-chevrons;
+  @extend .fa-chevron-right;
+  right: 25%;
+}

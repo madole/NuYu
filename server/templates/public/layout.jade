@@ -8,18 +8,7 @@ html
 
   body
     #wrap
-        .header-navbar
-          .navbar-header
-            a(href='/').navbar-brand Nu Yu
-          .collapse.navbar-collapse
-            ul.nav-links
-              li
-                a(href='/') Home
-              li
-                a(href='/about') About
-              li
-                a(href='/products') Products
-      
+        include partials/navbar
         //- yield content
         block content
         

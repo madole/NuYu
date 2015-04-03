@@ -10,4 +10,7 @@ publicController.about = (req, res) ->
 publicController.products = (req, res) ->
   res.render 'public/products'
 
+publicController.contact = (req, res) ->
+  res.render 'public/contact'
+
 module.exports = publicController
