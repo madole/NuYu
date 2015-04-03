@@ -2,12 +2,14 @@
 
 #carousel-generic{
   margin: 0 auto;
-  width: 100%;
+  max-width: 1040px;
+  max-height: 670px;
+  overflow: hidden;
 }
 
 .nav-chevrons {
   @extend .fa;
-  @extend .fa-4x;
+  @extend .fa-3x;
   position: absolute;
   top: 50%;
   z-index: 5;

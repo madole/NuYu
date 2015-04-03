@@ -1,0 +1,6 @@
+.home-column__left,
+.home-column__middle,
+.home-column__right {
+  @extend .three-column-layout;
+  padding: 3%;
+}

@@ -14,3 +14,7 @@ html, body {
   height: 45px;
 }
 
+.footer {
+  @extend .container;
+  text-align: center;
+}

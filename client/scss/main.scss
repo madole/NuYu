@@ -4,10 +4,26 @@
 @import "layout";
 @import "index";
 @import "about";
+@import "products";
 @import "partials/carousel";
 @import "partials/navbar";
 
 @font-face {
   font-family: "sassy";
   src: url("../fonts/Sweet%20&%20sassy%20serif.ttf");
+}
+
+.generic-header {
+  font-family: sassy;
+  text-align: center;
+}
+
+.three-column-layout {
+  @extend .col-md-4;
+  @extend .col-xs-12;
+}
+
+.two-column-layout {
+  @extend .col-md-6;
+  @extend .col-xs-12;
 }
