@@ -1,5 +1,8 @@
+$sassy-pink: #FF0080;
+$border-color: #eee;
+
 .header-navbar .navbar-brand {
-  color: #FF0080;
+  color: $sassy-pink;
   font-family: sassy;
   font-size: 2em;
 }

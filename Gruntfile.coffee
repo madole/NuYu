@@ -76,10 +76,10 @@ module.exports = (grunt) ->
     
     watch:
       coffee:
-        files: "#{APP_PATH}/coffee/**/*.coffee"
+        files: "#{APP_PATH}/coffee/**/**/*.coffee"
         tasks: 'coffee:development'
       jade:
-        files: "#{TEMPLATES_PATH}/**/*.jade"
+        files: "#{TEMPLATES_PATH}/**/**/*.jade"
         tasks: 'clientTemplates'
       sass:
         files: ["#{APP_PATH}/scss/**/**/*.scss"]

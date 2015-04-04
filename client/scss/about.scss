@@ -4,6 +4,7 @@
 
 .column {
   @extend .two-column-layout;
+  @extend .col-xs-12;
   font-size: 1.2em;
   padding: 5%;
   //transition-duration: 1s;
