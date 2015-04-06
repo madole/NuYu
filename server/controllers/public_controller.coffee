@@ -14,6 +14,10 @@ publicController.products = (req, res) ->
   res.render 'public/products',
     pageData: bacon
 
+publicController.gallery = (req, res) ->
+  res.render 'public/gallery',
+    pageData: bacon
+
 publicController.contact = (req, res) ->
   res.render 'public/contact'
 

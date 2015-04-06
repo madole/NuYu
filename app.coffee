@@ -23,6 +23,7 @@ app.configure ->
 app.get '/', publicController.index
 app.get '/about', publicController.about
 app.get '/products', publicController.products
+app.get '/gallery', publicController.gallery
 app.get '/contact', publicController.contact
 
  
