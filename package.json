@@ -28,6 +28,6 @@
   },
   "scripts": {
     "start": "npm install",
-    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt"
+    "postinstall": "./node_modules/grunt-cli/bin/grunt default"
   }
 }
