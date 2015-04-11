@@ -8,7 +8,7 @@
     "querystring": "*"
   },
   "devDependencies": {
-    "grunt": "~0.4.0rc7",
+    "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-jade": "0.8.0",
@@ -26,6 +26,6 @@
     "request-json": "*"
   },
   "scripts": {
-    "start": "grunt"
+    "start": "npm install; grunt"
   }
 }
