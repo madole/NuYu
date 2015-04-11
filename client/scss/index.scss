@@ -16,10 +16,13 @@
     text-align: center;
 }
 
-.next-surgery,
+.find-us__surgery{
+    text-align: center;
+}
+.next-surgery__heading,
 .botox,
-.find-us {
-    @extend .home__sub-heading
+.find-us__heading {
+    @extend .home__sub-heading;
 }
 
 .read-more {
@@ -29,4 +32,14 @@
         font-size: 1.2em;
         color: $sassy-pink;
     }
+}
+
+.find-us__map {
+    text-align: center;
+}
+
+.next-surgery__table {
+    @extend .table;
+    @extend .table-striped;
+
 }
