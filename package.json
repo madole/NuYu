@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
     "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-jade": "0.8.0",
@@ -26,6 +27,6 @@
     "request-json": "*"
   },
   "scripts": {
-    "start": "npm install; grunt"
+    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt"
   }
 }
