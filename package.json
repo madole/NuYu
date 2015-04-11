@@ -25,5 +25,10 @@
     "grunt-express": "~1.0.0-beta2",
     "grunt-env": "0.4.0",
     "request-json": "*"
+  },
+  "scripts": {
+    "test": "echo no tests",
+    "start": "",
+    "postinstall": "bash ./post_install.sh"
   }
 }
