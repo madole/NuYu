@@ -123,3 +123,8 @@ module.exports = (grunt) ->
         'express:development'
         'watch'
     ]
+
+    grunt.registerTask 'heroku', [
+        'development'
+        'express:development'
+    ]
