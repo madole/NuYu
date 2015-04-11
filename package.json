@@ -28,7 +28,6 @@
   },
   "scripts": {
     "test": "echo no tests",
-    "start": "",
-    "postinstall": "bash ./post_install.sh"
+    "start": "grunt default"
   }
 }
