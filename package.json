@@ -28,6 +28,6 @@
   },
   "scripts": {
     "test": "echo no tests",
-    "start": "grunt default"
+    "start": "./node_modules/grunt-cli/bin/grunt default"
   }
 }
