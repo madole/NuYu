@@ -1,19 +1,21 @@
 .products-header {
-  @extend .generic-header;
-  margin-bottom: 2%;
+    @extend .generic-header;
+    margin-bottom: 2%;
 }
 
 .products-column {
-  @extend .three-column-layout;
-  padding: 5%;
+    @extend .three-column-layout;
+    padding: 5%;
 }
 
 .products-column__left {
-  @extend .products-column;
+    @extend .products-column;
 }
+
 .products-column__middle {
-  @extend .products-column;
+    @extend .products-column;
 }
+
 .products-column__right {
-  @extend .products-column;
+    @extend .products-column;
 }

@@ -1,32 +1,32 @@
 .home-column__left,
 .home-column__middle,
 .home-column__right {
-  @extend .three-column-layout;
-  padding-left: 3%;
-  padding-right: 3%;
+    @extend .three-column-layout;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .home-column__middle {
-  border-left: 1px solid $border-color;
-  border-right: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
 }
 
 .home__sub-heading {
-  font-family: sassy;
-  text-align: center;
+    font-family: sassy;
+    text-align: center;
 }
 
 .next-surgery,
 .botox,
 .find-us {
-  @extend .home__sub-heading
+    @extend .home__sub-heading
 }
 
 .read-more {
-  @extend .pull-right;
-  a {
-    font-family: sassy;
-    font-size: 1.2em;
-    color: $sassy-pink;
-  }
+    @extend .pull-right;
+    a {
+        font-family: sassy;
+        font-size: 1.2em;
+        color: $sassy-pink;
+    }
 }

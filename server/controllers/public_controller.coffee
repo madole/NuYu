@@ -3,22 +3,22 @@ bacon = 'Bacon ipsum dolor amet andouille leberkas filet mignon pork loin kielba
 
 # home page '/'
 publicController.index = (req, res) ->
-  res.render 'public/index',
-    pageData: bacon
-    
+    res.render 'public/index',
+        pageData: bacon
+
 publicController.about = (req, res) ->
-  res.render 'public/about',
-    pageData: bacon
+    res.render 'public/about',
+        pageData: bacon
 
 publicController.products = (req, res) ->
-  res.render 'public/products',
-    pageData: bacon
+    res.render 'public/products',
+        pageData: bacon
 
 publicController.gallery = (req, res) ->
-  res.render 'public/gallery',
-    pageData: bacon
+    res.render 'public/gallery',
+        pageData: bacon
 
 publicController.contact = (req, res) ->
-  res.render 'public/contact'
+    res.render 'public/contact'
 
 module.exports = publicController

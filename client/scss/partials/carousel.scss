@@ -1,28 +1,29 @@
 //Carousel
 
-#carousel-generic{
-  margin: 20px auto 40px auto;
-  max-width: 1040px;
-  max-height: 670px;
-  overflow: hidden;
+#carousel-generic {
+    margin: 20px auto 40px auto;
+    max-width: 1040px;
+    max-height: 670px;
+    overflow: hidden;
 }
 
 .nav-chevrons {
-  @extend .fa;
-  @extend .fa-2x;
-  position: absolute;
-  top: 50%;
-  z-index: 5;
-  display: inline-block;
+    @extend .fa;
+    @extend .fa-2x;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
 }
 
 .nav-chevrons__left {
-  @extend .nav-chevrons;
-  @extend .fa-chevron-left;
-  left: 25%;
+    @extend .nav-chevrons;
+    @extend .fa-chevron-left;
+    left: 25%;
 }
+
 .nav-chevrons__right {
-  @extend .nav-chevrons;
-  @extend .fa-chevron-right;
-  right: 25%;
+    @extend .nav-chevrons;
+    @extend .fa-chevron-right;
+    right: 25%;
 }
