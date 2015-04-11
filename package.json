@@ -5,7 +5,7 @@
     "coffee-script": "~1.6.2",
     "underscore": "~1.5.1",
     "express": "3.0.0rc5",
-    "querystring": "*",
+    "querystring": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.0rc7",
