@@ -43,5 +43,6 @@
 .next-surgery__table {
     @extend .table;
     @extend .table-striped;
+    @extend .table-hover;
 
 }
