@@ -1,6 +1,6 @@
 express = require 'express'
 
-ASSET_BUILD_PATH = 'server/client_build/development'
+ASSET_BUILD_PATH = 'client'
 PORT = process.env.PORT ? 3000
 
 # controllers
@@ -18,6 +18,7 @@ app.configure ->
 
     # logging
     app.use express.logger()
+    app.set 'port', PORT
 
 # public routes
 app.get '/', publicController.index
@@ -28,3 +29,5 @@ app.get '/contact', publicController.contact
 
 
 module.exports = app
+
+
