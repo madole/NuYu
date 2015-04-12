@@ -1,0 +1,28 @@
+.header-navbar .navbar-brand {
+  color: #FF0080;
+  font-family: sassy;
+  font-size: 2em; }
+
+.home-column__left, .home-column__middle, .home-column__right {
+  padding-left: 3%;
+  padding-right: 3%; }
+
+.home-column__middle {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee; }
+
+.home__sub-heading, .next-surgery__heading, .botox, .find-us__heading {
+  font-family: sassy;
+  text-align: center; }
+
+.find-us__surgery {
+  text-align: center; }
+
+.read-more a {
+  font-family: sassy;
+  font-size: 1.2em;
+  color: #FF0080; }
+
+.find-us__map {
+  text-align: center; }
+

@@ -1,0 +1,22 @@
+!!!
+html
+    head
+        title NuYu
+        link(href="/assets/stylesheets/main.css", rel='stylesheet', type='text/css')
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    body
+        #wrap
+            include partials/navbar
+            //- yield content
+            block content
+
+        #footer
+            .footer
+                p &copy;2015 Andrew McDowell: Front End Developer
+
+        //- js: Single file in production, otherwise load requirejs
+        if process.env.ENV == 'production'
+            script(src='/assets/js/main.js')
+        else
+            script(data-main='/assets/js/main.js', src='/assets/js/vendor/require.js')

@@ -1,0 +1,21 @@
+.about__names {
+  padding: 0.5em; }
+
+.column, .column__left, .column__right {
+  font-size: 1.2em;
+  padding-left: 4em;
+  padding-right: 4em; }
+  .column:hover .head__circle img, .column__left:hover .head__circle img, .column__right:hover .head__circle img {
+    box-shadow: 0px 0px 6px 6px #ccc;
+    transform: scale(1.1); }
+  .column .head__holder, .column__left .head__holder, .column__right .head__holder {
+    margin-bottom: 2em; }
+    .column .head__holder .head__circle, .column__left .head__holder .head__circle, .column__right .head__holder .head__circle {
+      width: 200px;
+      margin: 0 auto; }
+      .column .head__holder .head__circle img, .column__left .head__holder .head__circle img, .column__right .head__holder .head__circle img {
+        transition-duration: 1s;
+        width: 200px;
+        border-radius: 50%;
+        border: 10px solid white; }
+

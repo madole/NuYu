@@ -1,0 +1,25 @@
+.header-navbar .navbar-brand {
+  color: #FF0080;
+  font-family: sassy;
+  font-size: 2em; }
+
+html, body {
+  height: 100%; }
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -45px;
+  padding: 50px 0 45px;
+  display: inline-block; }
+
+#footer {
+  height: 45px; }
+
+.footer {
+  font-family: sassy;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee; }

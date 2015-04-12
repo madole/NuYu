@@ -1,0 +1,17 @@
+#carousel-generic {
+  margin: 20px auto 40px auto;
+  max-width: 1040px;
+  max-height: 670px;
+  overflow: hidden; }
+
+.nav-chevrons, .nav-chevrons__left, .nav-chevrons__right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block; }
+
+.nav-chevrons__left {
+  left: 25%; }
+
+.nav-chevrons__right {
+  right: 25%; }
