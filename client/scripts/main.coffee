@@ -1,4 +1,4 @@
-VENDOR = "vendor"
+VENDOR = "/assets/public/js/vendor"
 requirejs.config
     paths:
         'jquery': "#{VENDOR}/jquery.min"
@@ -21,5 +21,4 @@ requirejs.config
 
 
 requirejs ['jquery', 'bootstrap'], ($, bootstrap) ->
-    console.log 'Edit me in client/coffee/main.coffee.'
     $('#carousel-generic').carousel()
