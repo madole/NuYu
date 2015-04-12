@@ -6,18 +6,22 @@ publicController.index = (req, res) ->
     res.render 'public/index',
         pageData: bacon
 
+# about page '/about'
 publicController.about = (req, res) ->
     res.render 'public/about',
         pageData: bacon
 
+# products page '/products'
 publicController.products = (req, res) ->
     res.render 'public/products',
         pageData: bacon
 
+# gallery page '/gallery'
 publicController.gallery = (req, res) ->
     res.render 'public/gallery',
         pageData: bacon
 
+# contact page '/contact'
 publicController.contact = (req, res) ->
     res.render 'public/contact'
 
